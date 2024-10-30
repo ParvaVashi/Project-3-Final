@@ -1,0 +1,116 @@
+[{
+  "_id": {
+    "$oid": "66d69415e0d7ef34ac963508"
+  },
+  "stock": {
+    "A+": 50,
+    "A-": 50,
+    "B+": 0,
+    "B-": 0,
+    "AB+": 0,
+    "AB-": 0,
+    "O+": 0,
+    "O-": 0
+  },
+  "name": "RED CROSS",
+  "hospital": "Zydus Hospital",
+  "contactPerson": "Shlok",
+  "category": "Private",
+  "website": "https://chatgpt.com/c/aab0bcf6-af24-4509-ad7c-8d12ba36ca96",
+  "phone": 9898989898,
+  "email": "redcrossanand@gmail.com",
+  "password": "$2b$10$nJ86z/043Uszc.xhXyYMrO3XbxDjiOTjuz5hPLpy5Id/doYCRxaA2",
+  "state": "Gujarat",
+  "district": "Ahmedabad",
+  "address": "NO ADDRESS",
+  "latitude": 23.022505,
+  "longitude": 72.5713621,
+  "requests": [
+    {
+      "_id": {
+        "$oid": "66d694afe0d7ef34ac96351f"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "66d69650e0d7ef34ac96355e"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "66ebdf61e131cd3d8c72056b"
+      }
+    }
+  ],
+  "donations": [
+    {
+      "_id": {
+        "$oid": "66d6953be0d7ef34ac963532"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "66d6957ae0d7ef34ac96354a"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "66dd1b67fc8a1022ccab8395"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "66ebde05e131cd3d8c72054c"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "670627a250b73736cc237af5"
+  },
+  "stock": {
+    "A+": 0,
+    "A-": 0,
+    "B+": 100,
+    "B-": 0,
+    "AB+": 0,
+    "AB-": 0,
+    "O+": 0,
+    "O-": 0
+  },
+  "name": "RED CROSS NADIAD",
+  "hospital": "Smt. SN Joshi MultiSpeciality Hospital",
+  "contactPerson": "Kavan Vaghela",
+  "category": "Private",
+  "website": "https://www.justdial.com/Anand/Indian-Red-Cross-Society-Opposite-Ranchhodji-Temple-Petlad/9999P2692-2692-140410154049-F9Z9_BZDET",
+  "phone": 6666666666,
+  "email": "redcrossnadiad@gmail.com",
+  "password": "$2b$10$1QnF4.g/QjNLOQa1Xz2D.ugo2kkH8g7L2x66C7oy7zn.Vtt/073h2",
+  "state": "Gujarat",
+  "district": "Kheda (Nadiad)",
+  "address": "Nadiad, Gujarat  INDIA",
+  "latitude": 23.0457344,
+  "longitude": 72.564736,
+  "requests": [
+    {
+      "_id": {
+        "$oid": "670643d64391212b544375b6"
+      }
+    }
+  ],
+  "donations": [
+    {
+      "_id": {
+        "$oid": "67063f884391212b54437581"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "670643f24391212b544375bf"
+      }
+    }
+  ],
+  "__v": 0
+}]

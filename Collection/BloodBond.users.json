@@ -1,0 +1,64 @@
+[{
+  "_id": {
+    "$oid": "66d690b3396b3a469c835d34"
+  },
+  "name": "Shlok Thakkr",
+  "age": 20,
+  "gender": "male",
+  "bloodGroup": "A+",
+  "email": "s@gmail.com",
+  "password": "$2b$10$T3kZXr7II0yEbOA3ZQoqOu0NVHLDWgd3qQAvAM3DTH7trPS5ocA8i",
+  "phone": 1234567890,
+  "state": "Gujarat",
+  "district": "Anand",
+  "address": "tfvygbuhinj",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66d6934be0d7ef34ac9634fe"
+  },
+  "name": "Monark",
+  "age": 25,
+  "gender": "male",
+  "bloodGroup": "A-",
+  "email": "monark@gmail.com",
+  "password": "$2b$10$O9lcWSUa08dmpkBiKLdUru4cHhHIz92NOy7qElWHkPG4dorydzVjK",
+  "phone": 8888888888,
+  "state": "Gujarat",
+  "district": "Ahmedabad",
+  "address": "NO HOME ",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66d69517e0d7ef34ac96352d"
+  },
+  "name": "Utsav",
+  "age": 65,
+  "gender": "male",
+  "bloodGroup": "A+",
+  "email": "u@gmail.com",
+  "password": "$2b$10$cnsyQ2IpYX9Ep8.NGIpegelbr8k1z6zXYviMEeiz1jlisonA49aAm",
+  "phone": 1111111111,
+  "state": "Gujarat",
+  "district": "Ahmedabad",
+  "address": "HOMELESS",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6706284950b73736cc237b01"
+  },
+  "name": "Shlok Thakkar",
+  "age": 20,
+  "gender": "male",
+  "bloodGroup": "B+",
+  "email": "shlok@gmail.com",
+  "password": "$2b$10$KK5CpTofEJM8RD8eY941Yeo0hxGpj9jLeE96yHjowTonJ/cbm1yDC",
+  "phone": 7777777777,
+  "state": "Gujarat",
+  "district": "Anand",
+  "address": "MVR6+CWJ, Santram Society Rd, near Alka Cinema, Nadiad, Gujarat 387001",
+  "__v": 0
+}]
