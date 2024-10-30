@@ -36,3 +36,8 @@ node app.js &  # Starts backend in the background
 cd ../frontend
 npm install
 npm start  # Starts frontend in the same terminal
+
+🎉 Your Project Is Up and Running! 🎉
+With both servers active, the application should be fully operational! 👏💻
+
+📝 Note: Make sure MongoDB is running in the background while working with the application.
