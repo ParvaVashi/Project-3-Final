@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 const cookieParser = require("cookie-parser");
 
 const app = express();
-const port = process.env.PORT || 3177;
+const port = process.env.PORT||3177;
 
 dotenv.config();  // Load environment variables
 
@@ -14,16 +14,17 @@ console.log("JWT_SECRET:", process.env.JWT_SECRET);
 app.use(cookieParser());
 app.use(express.json());
 app.use(
-	cors({
-		origin: [
-			"http://localhost:3000",
-		],
-		credentials: true,
-	})
+    cors({
+        origin: [
+            "http://localhost:3000", // Make sure this is correct
+        ],
+        credentials: true,
+    })
 );
 
+
 // MongoDB Atlas connection
-const mongoURI = process.env.MONGO_URI || "mongodb://localhost:27017/BloodBond";
+const mongoURI = process.env.MONGO_URI;
 mongoose.connect(mongoURI, { 
 	useNewUrlParser: true, 
 	useUnifiedTopology: true 

@@ -6,7 +6,7 @@ dotenv.config(); // Load environment variables
 const connectDB = async () => {
   try {
     // Use the MONGO_URI environment variable or fallback to a default URI
-    const mongoURI = process.env.MONGO_URI || "mongodb+srv://22cs090:Parva%400811@bloodsynergy.4ipcw.mongodb.net/";
+    const mongoURI = process.env.MONGO_URI;
 
     const connectionInstance = await mongoose.connect(mongoURI, {
       useNewUrlParser: true,
