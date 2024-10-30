@@ -5,8 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "qwerty": "nodemon app.js",
-    "postinstall": "npm rebuild bcrypt --build-from-source"
+    "qwerty": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
