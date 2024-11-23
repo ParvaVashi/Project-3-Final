@@ -1,0 +1,200 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Banner Styles */
+  .banner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+  
+  .banner-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px; /* Adjust width as needed */
+    font-weight: bolder;
+  }
+  
+  .banner-bg2-image {
+    width: 46%;
+    height: auto;
+    margin-right: 20px; /* Space between the image and text */
+  }
+  
+  .banner-text {
+    width: 50%;
+    text-align: center; /* Center text */
+  }
+  
+  .banner-text h1 {
+    margin: 0;
+    font-size: 40px; /* Font size */
+    line-height: 1.2; /* Line height for spacing between lines */
+    color: #c8102e; /* Red color for text */
+  }
+  
+  .donation-info {
+    margin: 50px auto;
+    max-width: 1200px; /* Adjust as needed */
+    padding: 0 20px;
+    text-align: center;
+   
+  }
+  
+  .donation-info h1 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: #c8102e; /* Red color for heading */
+    font-weight: bolder;
+}
+  
+  .blood-type-table {
+    width: 60%;
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+  
+  .blood-type-table th,
+  .blood-type-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .blood-type-table th {
+    background-color: #c8102e; /* Red color for header background */
+    color: #ffffff; /* White text color for contrast */
+    font-size: 18px;
+  }
+  
+  .blood-type-table tr:nth-child(even) {
+    background-color: #f8d7da; /* Light red for even rows */
+  }
+  
+  .blood-type-table tr:hover {
+    background-color: #f5c6cb; /* Slightly darker red for hover effect */
+  }
+  
+  .process-container {
+    margin: 50px auto;
+    max-width: 1200px; /* Adjust as needed */
+    padding: 0 20px;
+    text-align: center;
+  }
+  
+  .process-container h1 {
+    margin-bottom: 30px;
+    font-size: 36px;
+    color: #c8102e; /* Red color for heading */
+    font-weight: bolder;
+  }
+  
+  .process-flow {
+    display: flex;
+    justify-content: space-between; /* Distribute space between items */
+    flex-wrap: wrap; /* Allow items to wrap to the next line if necessary */
+  }
+  
+  .flow-step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 23%; /* Equal width for each step */
+    margin: 10px; /* Margin between steps */
+    min-width: 220px; /* Minimum width to ensure readability */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .flow-step:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .step-icon-container {
+    background-color: #c8102e; /* Red background for the icon container */
+    border-radius: 50%;
+    width: 200px; /* Adjust size as needed */
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px; /* Space between icon container and text */
+    overflow: hidden; /* Ensure images do not overflow the container */
+  }
+  
+  .step-icon-container img {
+    width: 100%; /* Make the image fill the container width */
+    height: 100%; /* Make the image fill the container height */
+    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+  }
+  
+  .step-content {
+    background-color: #f8d7da; /* Light red background for the content */
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center text within each step */
+  }
+  
+  .flow-arrow {
+    font-size: 36px;
+    color: #c8102e; /* Red color for arrows */
+    margin: 20px 0;
+  }
+  
+
+  .donation-image {
+    width: 50%; /* Make image responsive */
+    max-width: 800px; /* Maximum width of the image */
+    height: 30%; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners for the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    display: block; /* Make the image a block-level element */
+    margin: auto; /* Horizontally center the image */
+  }
+  
+  
+  .donation-info p {
+    margin: 0; /* Remove all default margins */
+    font-size: 18px; /* Font size */
+    color: #333; /* Dark gray color for text */
+    line-height: 1.6; /* Line height for readability */
+    max-width: 800px; /* Maximum width for the paragraphs */
+    margin-left: auto; /* Center text block */
+    margin-right: auto; /* Center text block */
+    font-weight: bold;
+  }
+  
+  .donation-info p:first-of-type {
+    margin-top: 10px; /* Margin at the top of the first paragraph */
+  }
+  
+  .donation-info p:last-of-type {
+    margin-bottom: 20px; /* Margin at the bottom of the last paragraph */
+  }
+  
+  /* Background styling for the entire page */
+  body {
+   background-color: rgb(235, 212, 212);
+  }
+  .banner {
+    width: 100%;
+    height: 300px;
+  }
+  
+  .banner img {
+    width: 100%;
+    height: auto;
+  }
+  
